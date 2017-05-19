@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Hind', 'Arial', sans-serif; 
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content= ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden; 
+}
+
+.row {
+    margin: 0 auto;
+    max-width: 1140px;
+
+}
+
+h2 {
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 19px;
+}
+h2:after {
+    display: block;
+    margin: 0 auto;
+    height: 2px;
+    width: 100px;
+    background-color: grey;
+    margin-top: 10px;
+    content: " ";
+    margin-bottom: 30px;
+}
+
+h3 {
+    text-align: center;
+}
+section {
+    padding: 80px 0;
+}
+
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    border-radius: 30px;
+    padding: 15px 30px;
+    text-decoration: none;
+    background-color: #e67e22;
+    color: aliceblue;
+    border: 0;
+}
+
+.btn:hover,
+.btn:active {
+    font-weight: 100;
+    background-color: #cf6d17;
+}
+
+
+
+/*--------------NAV--------------*/
+
+nav {
+    top: 0;
+    width: 100%;
+}
+
+/* main navi */
+#logo {
+    float: left;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 120%;
+    padding: 25px 0 10px 45px;
+    word-spacing: 0.01em;
+}
+
+#logo-sticky { 
+    display: none;
+    float: left;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 110%;
+    padding: 15px 0 10px 45px;
+    word-spacing: -5px;
+}
+
+#logo-sticky br { display: none; }
+
+
+.main-nav {
+    float: right;
+    list-style: none;
+    padding-right: 35px;
+    margin-top: 35px;
+}
+
+.main-nav li {
+    display: inline-block;
+    padding: 0 15px;
+    font-weight: 200;
+}
+
+.main-nav li a:link {
+    text-decoration: none;
+    color: black;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.main-nav li a:hover {
+    border-bottom: 2px solid grey;
+}
+
+/* sticky navi */
+
+.sticky {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 2px #d0d0d0;
+    z-index: 9999;
+}
+
+.sticky #logo-sticky { display: block; }
+.sticky #logo { display: none; }
+
+.sticky .main-nav {
+    margin-top: 15px;
+}
+
+.sticky .main-nav li a:link {
+    text-decoration: none;
+    color: black;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.sticky .main-nav li a:hover {
+    border-bottom: 2px solid grey;
+}
+
+
+
+
+
+
+/*----------HEADER------------*/
+
+header {
+    height: 100vh;
+    background-image: url('background_image.jpg');   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.hero-text-box {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    color: white;
+}
+.hero-text-box h3 {
+    margin-bottom: 25px;
+}
+
+/*----------ABOUT------------*/
+
+.section-about {
+}
+#headshot {
+     padding-left: 100px;
+}
+#headshot img{
+    width: 100%;
+    float: right;
+}
+
+#about p {
+    margin: 0 auto;
+    text-align: left;
+    padding-right: 100px;
+    line-height: 200%;
+}
+
+/*----------Writing Clips------------*/
+.writing-clips {
+    background-color: ghostwhite;
+
+}
+.clip-container {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.clip-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.box {
+    padding: 0 6px;
+}
+.box img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.box h3 {
+    text-align: left;
+}
+.box p {
+    padding: 5px 0;
+    text-align: left;
+    font-size: 90%;
+    word-spacing: 1px;
+}
+
+.load-more-btn {
+    padding: 3px 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+/*----------Testimonials------------*/
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.9)), url(testimonial_background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+blockquote {
+    margin-top: 20px;
+    padding: 2% 8%;
+    padding-bottom: 10%;
+    font-style: italic;
+    line-height: 145%;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 200%;
+    display: block;
+    position: absolute;
+    top:-8%;
+}
+
+cite {
+    font-size: 90%;
+    display: block;
+}
+
+
+
+/*----------Contact Form------------*/
+
+.section-form {
+        color: white;
+    background-color: black;
+    
+}
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+*:focus {outline: none;}
+
+.social-icon {
+    width 10px;
+}
+label {
+    padding-top: 7px;
+    float: right;
+}
+
+/*----------ANIMATIONS------------*/
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3,
+.js--wp-4
+{
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.js--wp-1 .animated,
+.js--wp-2 .animated,
+.js--wp-3 .animated,
+.js--wp-4
+{
+    opacity: 1;
+}
+
+
+
+
+
