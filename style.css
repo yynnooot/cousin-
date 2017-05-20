@@ -125,6 +125,15 @@ nav {
     border-bottom: 2px solid grey;
 }
 
+/* mobile nav */
+
+.mobile-nav-icon {
+    margin-top: 15px;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
 /* sticky navi */
 
 .sticky {
@@ -202,7 +211,7 @@ header {
 
 /*----------Writing Clips------------*/
 .writing-clips {
-    background-color: ghostwhite;
+    background-color: whitesmoke;
 }
 .clip-container {
     margin: 0 auto;

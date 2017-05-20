@@ -78,5 +78,20 @@ $(document).ready(function(){
     }, {
          offset:'50%'
     });
-
+    
+    /*MOBILE NAVIGATION*/
+    $('.js--nav-icon').click(function(){
+        
+        var nav = $('.js--main-nav');
+        
+        nav.slideToggle(200);
+        
+        if ($(this).attr('src') == "icon-close.png") {
+            $(this).attr('src', 'hamburger-menu.png');
+        } else if ($(this).attr('src') == 'hamburger-menu.png') {
+            $(this).attr('src', 'icon-close.png')
+        };
+        
+    });
+    
 });
