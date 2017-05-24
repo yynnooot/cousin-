@@ -57,12 +57,14 @@ $(document).ready(function(){
     //Animations on Scroll
     $('.js--wp-1').waypoint(function(){
         $('.js--wp-1').addClass('animated fadeInLeft');
+        //Code to highlight the specific nav li
     }, {
         offset: '50%'
     });
     
     $('.js--wp-2').waypoint(function(){
         $('.js--wp-2').addClass('animated fadeIn');
+        $()
     }, {
         offset: '50%'
     });

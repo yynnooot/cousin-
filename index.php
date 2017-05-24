@@ -132,7 +132,7 @@
  <!-- CONTACT -->         
         <section class="section-testimonials">
             <div class="row">
-                <h2>What Clients Are Saying</h2>
+                <h2>Contact</h2>
             </div>
             <div class="row">
                 <div class="col span-1-of-3">
@@ -159,12 +159,10 @@
                <?php
                     if($_GET['success'] == 1) {
                         echo "<div class=\"row form-messages success\">
-                        Thank you! Message Was Successfully Sent!</div>"; 
-                    }
+                        Thank you! Message Was Successfully Sent!</div>";
                     if($_GET['success'] == -1) {
                         echo "<div class=\"row form-messages error\">
                         Oops, Something went wrong! Please try again.</div>";
-                    }
 
                 ?>    
                     <div class="row">                       
