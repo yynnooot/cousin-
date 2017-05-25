@@ -80,6 +80,7 @@ $(document).ready(function(){
     }, {
          offset:'50%'
     });
+
     
     /*MOBILE NAVIGATION*/
     $('.js--nav-icon').click(function(){
@@ -88,10 +89,10 @@ $(document).ready(function(){
         
         nav.slideToggle(200);
         
-        if ($(this).attr('src') == "icon-close.png") {
-            $(this).attr('src', 'hamburger-menu.png');
-        } else if ($(this).attr('src') == 'hamburger-menu.png') {
-            $(this).attr('src', 'icon-close.png')
+        if ($(this).attr('src') == "icons/icon-close.png") {
+            $(this).attr('src', 'icons/hamburger-menu.png');
+        } else if ($(this).attr('src') == 'icons/hamburger-menu.png') {
+            $(this).attr('src', 'icons/icon-close.png')
         };
         
     });

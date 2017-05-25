@@ -47,33 +47,37 @@
             transition: border-bottom 0.2s, color 0.2s;
     }
     
-    .sticky .mobile-nav-icon { margin-top: 9px;}
+    .sticky .mobile-nav-icon { margin-top: 9px; }
     
     #logo{ 
         padding: 18px; 
-        padding-left: 5% }
+        padding-left: 5%;
+    }
     
 
     /*Content*/
     
     section { padding: 30px 0; }
     
-    body { font-size: 16px; }
+    body { font-size: 12px !important; }
     
-    #about p {line-height: 150%;}
+    #about p { 
+        line-height: 120%; 
+        font-size: 12px; 
+    }
     
-    h4 {font-weight: 400;}
+    h4 { font-weight: 400; }
     
-    .box p {font-size: 90%; word-spacing:5px;}
+    .box p {
+        font-size: 90%; 
+        word-spacing:5px;
+    }
     
-    .clip-container {padding-bottom: 0;}
-    
-    blockquote {margin-top: 5px;}
+    .clip-container { padding-bottom: 0; }
     
     .span-1-of-4 { 
         width: 49.2%;
         margin: 0;
-
     }
     
 }
