@@ -13,7 +13,7 @@
     }
 
     // Set the recipient email address. Update this to YOUR desired email address.
-    $recipient = "tooonnyy@gmail.com";
+    $recipient = "taeyoonwriter@gmail.com";
 
     // Set the email subject.
     $subject = "New contact from $name";
@@ -30,6 +30,6 @@
     mail($recipient, $subject, $email_content, $email_headers);
     
     // Redirect to the index.html page with success code
-    header("Location: http://taeyoonwriter-com.stackstaging.com/index.php?success=1#form");
+    header("Location: http://www.taeyoonwriter.com/index.php?success=1#form");
 
 ?>

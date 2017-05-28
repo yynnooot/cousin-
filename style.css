@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -55,20 +56,24 @@ section {
 .btn:link,
 .btn:visited,
 input[type=submit] {
-    border-radius: 30px;
     padding: 17px 30px;
     text-decoration: none;
-    background-color: #e67e22;
-    color: aliceblue !important;
-    border: 0;
+    color: white !important;
+    border: 1px solid white;
+    background-color: transparent;
 }
 
 .btn:hover,
 .btn:active {
     font-weight: 100;
-    background-color: #cf6d17;
+    border: none;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(25%, #c97ce0), to(#87aff0));
+    background-image: linear-gradient(to right, #c97ce0 25%, #87aff0 110%)
 }
 
+a {
+    text-decoration: none;
+}
 
 
 /*--------------NAV--------------*/
@@ -76,6 +81,15 @@ input[type=submit] {
 nav {
     top: 0;
     width: 100%;
+}
+
+#home a {
+    text-decoration: none;
+    color: black;
+}
+
+#home #logo-sticky {
+    text-decoration: none;
 }
 
 /* main navi */
@@ -86,6 +100,7 @@ nav {
     font-size: 120%;
     padding: 25px 0 10px 45px;
     word-spacing: 0.01em;
+    color: white;
 }
 
 #logo-sticky { 
@@ -96,6 +111,7 @@ nav {
     font-size: 110%;
     padding: 15px 0 10px 45px;
     word-spacing: -5px;
+    color: black;
 }
 
 #logo-sticky br { display: none; }
@@ -122,12 +138,14 @@ nav {
 }
 
 .main-nav li a:hover {
-    border-bottom: 2px solid #cf6d17;
+    border-bottom: 2px solid #c97ce0;
 }
 
 /* highlighted nav with waypoints */
 
-
+.active-item {
+    border-bottom: 2px solid #c97ce0 !important;
+}
 
 /* mobile nav */
 
@@ -146,6 +164,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
+    -webkit-box-shadow: 0 2px 2px #d0d0d0;
     box-shadow: 0 2px 2px #d0d0d0;
     z-index: 9999;
 }
@@ -165,11 +184,8 @@ nav {
 }
 
 .sticky .main-nav li a:hover {
-    border-bottom: 2px solid #cf6d17;
+    border-bottom: 2px solid #e00bf3;
 }
-
-
-
 
 
 
@@ -177,6 +193,7 @@ nav {
 
 header {
     height: 100vh;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.9))), url('images/background.jpg');
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url('images/background.jpg');   
     background-size: cover;
     background-repeat: no-repeat;
@@ -187,7 +204,7 @@ header {
 }
 .hero-text-box {
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 25%;
 }
 
@@ -196,6 +213,7 @@ header {
     margin-bottom: 0 !important;
     letter-spacing: 1.5px;
     font-size: 300%;
+    color: white;
 }
 
 .hero-text-box h3 {
@@ -206,9 +224,15 @@ header {
     color: ghostwhite;
     font-size: 200%;
 }
-#home a{
+.hero-text-box .btn {
+    letter-spacing: 2px;
+    padding: 15px 20px;
+}
+
+#home li a{
     text-decoration: none;
     color: black;
+    padding-bottom: 4px;
 }
 
 /*----------ABOUT------------*/
@@ -230,7 +254,8 @@ header {
 
 /*----------Writing Clips------------*/
 .writing-clips {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.9)), url(images/testimonial_background.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.5))), url('images/writing-clips-background.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('images/writing-clips-background.jpg');
     background-attachment: fixed;
     background-size: cover;
     color: white;
@@ -248,28 +273,30 @@ header {
 .clip-container h4 {
     font-size: 15px;
     padding-bottom: 12px;
+    font-weight: 100;
 }
 
 .clip-container h6 {
     color: #ad2444;
     padding: 8px 0;
     text-align: center;
+    font-size: 11px;
 }
 
 .box {
     padding: 0 6px;
-    background-color: lightgrey;
+    background-color: white;
     height: 260px;
 }
+.box:hover { background-color: lightgrey; }
 
-.box:hover {
-    opacity: 0.9;
-}
 .box img {
     height: 155px;
     width: 100%;
     margin-bottom: 10px;
+    -o-object-fit: cover;
     object-fit: cover;
+    border: 0.5px solid lightgrey;
 }
 .box h3 {
     text-align: left;
@@ -280,17 +307,36 @@ header {
     font-size: 90%;
     word-spacing: 1px;
 }
+        
+/*show-more & show-less*/
+.writing-clips .li { display: none; }
 
-.article-load-btn {
+.showMore {
+    cursor: pointer;
+    color: white;
+    border: 0.5px solid white;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
     text-align: center;
 }
 
-.load-more-btn {
-    padding: 3px 10px;
-    border: 1px solid black;
-    text-decoration: none;
-    font-size: 80%;
+.showMore:hover,
+.showMore:active { color: grey; }
+
+.showLess {
+    text-align: center;
+    color: grey;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
+.showLess:hover,
+.showLess:active
+    { color: #413d3d; }
+
 
 
 /*----------Contact Form------------*/
@@ -319,7 +365,6 @@ header {
 .contact-form {
     width: 60%;
     margin: 0 auto;
-
 }
 
 input[type=text],
@@ -346,7 +391,23 @@ label {
     padding-top: 7px;
     float: right;
 }
+/*---------FOOTER------------*/
+#instagram-title {
+    text-align: center;
+}
 
+#instagram-title img {
+    height: 33px;
+}
+
+footer {
+    padding-top: 9px;
+    padding-bottom: 10px;
+    background-color: white; 
+    text-align: right; 
+    letter-spacing: 2px;
+    font-size: 12px;
+}
 /*----------ANIMATIONS------------*/
 
 .js--wp-1,
@@ -355,6 +416,7 @@ label {
 .js--wp-4
 {
     opacity: 0;
+    -webkit-animation-duration: 1s;
     animation-duration: 1s;
 }
 
