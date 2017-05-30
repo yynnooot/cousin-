@@ -75,13 +75,14 @@ $(document).ready(function(){
     //Animations on Scroll
     $('.js--wp-1').waypoint(function(){
         $('.js--wp-1').addClass('animated fadeInLeft');
+        //Code to highlight the specific nav li
     }, {
         offset: '50%'
     });
     
     $('.js--wp-2').waypoint(function(){
         $('.js--wp-2').addClass('animated fadeIn');
-        
+        $()
     }, {
         offset: '50%'
     });
@@ -113,33 +114,5 @@ $(document).ready(function(){
         };
         
     });
-        
-    /*NAV LINKS UNDERLINE AT DIFFERENT SECTIONS*/
-        
-        // Select all navigation items
-        var $navItems = $('nav a');
-    
-    // For each of these items, we will perform actions
-        $navItems.each(function() {
-                
-        // First, we get the href attribute, which will be #features, #works, etc
-            var ID = $(this).attr('href');
-
-            // We need to store the active navi item ($(this)) in a new variable so we can use it in the waypoints function later
-            var $self = $(this);
-
-            // Then, we can use this current ID variable to select the corresponding section, and add a waypoint to it
-            $(ID).waypoint(function(direction) {
-                // Just to test
-                //console.log("Test this function for " + $self.attr('href'));
-
-                // We first remove the active item class for all elements, to clear them
-                $navItems.removeClass('active-item');
-
-                // We then add the active item class to the current item
-                $self.addClass('active-item');
-            });
-        });
-    
     
 });

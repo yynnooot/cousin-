@@ -3,8 +3,8 @@
     <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Tae Yoon is a freelance writer from New York City.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tae Yoon is a freelance writer in New York City. Tae writes about food, restaurants, and food industry related topics.">
 
     <link rel="stylesheet" type="text/css" href="vendors/normalize.css">
  
@@ -27,9 +27,9 @@
                   <p id="logo"><a href="#home">Tae Yoon <br>Writer</a></p>
                   <p id="logo-sticky"><a href="#home">Tae Yoon <br>Writer</a></p>
                   <ul class="main-nav clearfix js--main-nav">
-                      <li><a href="#about-anchor" class="active-item">about</a></li>
-                      <li><a href="#writing-clips-anchor" class="active-item">writing clips</a></li>
-                      <li><a href="#contact-anchor" class="active-item">contact</a></li>
+                      <li><a href="#about-anchor">about</a></li>
+                      <li><a href="#writing-clips-anchor">writing clips</a></li>
+                      <li><a href="#contact-anchor">contact</a></li>
                       <li><a href="http://www.thwany.blogspot.com" target="_blank">blog</a></li>
                       
                   </ul>
@@ -75,14 +75,14 @@
                 <div class="col span-1-of-4 box" id="story-24">
                     <a href="https://munchies.vice.com/en_us/article/what-two-decades-as-a-restaurateur-has-taught-me" target="_blank">
                             <h6>- MUNCHIES -</h6>
-                            <img src="Screenshotrs3RDRound/23YinApr217NEW.jpg">
+                            <img src="Screenshotrs3RDRound/23YinApr217NEW.jpg" alt="restauranteur-ellen-yin">
                             <h4>What Two Decades as a Restaurateur Has Taught Me</h4>
                     </a>
                 </div>
                 <div class="col span-1-of-4 box" id="story-23">
                     <a href="http://ediblequeens.ediblecommunities.com/drink/aspiring-teen-baristas-gain-education-java-university" target="_blank">
                         <h6>- EDIBLE QUEENS -</h6>
-                        <img src="Screenshotrs3RDRound/22BirchMar2917NEW.jpg" alt="">
+                        <img src="Screenshotrs3RDRound/22BirchMar2917NEW.jpg" alt="teen-baristas-queens">
                         <h4>Aspiring Teen Baristas Gain An Education At Java University</h4>
                     </a>
                 </div>
@@ -96,7 +96,7 @@
                 <div class="col span-1-of-4 box" id="story-21">
                     <a href="https://munchies.vice.com/en_us/article/working-near-trump-tower-has-become-a-nightmare" target="_blank">
                         <h6>- MUNCHIES -</h6>
-                        <img src="Screenshotrs3RDRound/20TTowerDec2216NEW.jpg">
+                        <img src="Screenshotrs3RDRound/20TTowerDec2216NEW.jpg" alt="trump-tower-workers">
                         <h4>Working Near Trump Tower Has Become a Nightmare</h4>
                     </a>
                 </div>                
@@ -106,21 +106,21 @@
                 <div class="col span-1-of-4 box" id="story-20">
                     <a href="http://gothamist.com/2016/12/20/shift_drink_rip.php" target="_blank">
                         <h6>- GOTHAMIST -</h6>
-                        <img src="Screenshotrs3RDRound/19ShiftDec2016NEW.jpg">
+                        <img src="Screenshotrs3RDRound/19ShiftDec2016NEW.jpg" alt="shift-drink-nyc">
                         <h4>It’s Last Call On The Shift Drink In Some NYC Bars & Restaurants</h4>
                     </a>
                 </div>
                 <div class="col span-1-of-4 box" id="story-19">
                     <a href="https://munchies.vice.com/en_us/article/this-sandwich-saves-me-from-hangover-hell" target="_blank">
                         <h6>- MUNCHIES -</h6>
-                        <img src="Screenshotrs3RDRound/18SandwichAug1816NEW.jpg">
+                        <img src="Screenshotrs3RDRound/18SandwichAug1816NEW.jpg" alt="hangover-sandwich">
                         <h4>This Sandwich Saves Me from Hangover Hell</h4>                     
                     </a>
                 </div>
                 <div class="col span-1-of-4 box" id="story-18">
                     <a href="https://munchies.vice.com/en_us/article/why-this-recovering-alcoholic-wants-restaurant-workers-to-stop-meeting-in-bars" target="_blank">
                         <h6>- MUNCHIES -</h6>
-                        <img src="Screenshotrs3RDRound/17RudolfAug117NEW.jpg">
+                        <img src="Screenshotrs3RDRound/17RudolfAug117NEW.jpg"  alt="recovering-alcoholic">
                         <h4>Why This Recovering Alcoholic Wants Restaurant Workers to Stop Meeting in Bars</h4>
                         
                     </a>
@@ -128,7 +128,7 @@
                 <div class="col span-1-of-4 box" id="story-17">
                     <a href="https://munchies.vice.com/en_us/article/hustling-weed-on-the-side-helps-keep-my-restaurant-open-58ad8fc83f16c1be645396fd" target="_blank">
                         <h6>- MUNCHIES -</h6>
-                        <img src="Screenshotrs3RDRound/16WeedAug16NEW.jpg">
+                        <img src="Screenshotrs3RDRound/16WeedAug16NEW.jpg" alt="weed-hustle-restaurant">
                         <h4>Hustling Weed on the Side Helps Keep My Restaurant Open</h4>
                     </a>
                 </div>  
@@ -138,14 +138,14 @@
                 <div class="col span-1-of-4 box" id="story-16">
                     <a href="https://munchies.vice.com/en_us/article/this-chefs-korean-ramen-is-a-dish-best-served-cold" target="_blank">
                             <h6>- MUNCHIES -</h6>
-                            <img src="Screenshotrs3RDRound/15MokbarJun1516NEW.jpg">
+                            <img src="Screenshotrs3RDRound/15MokbarJun1516NEW.jpg" alt="korean-ramen-chelsea">
                             <h4>This Chef’s Korean Ramen Is a Dish Best Served Cold</h4>
                     </a>
                 </div>
                 <div class="col span-1-of-4 box" id="story-15">
                     <a href="https://munchies.vice.com/en_us/article/all-the-delays-of-opening-a-restaurant-in-new-york-city-are-well-worth-it" target="_blank">
                         <h6>- MUNCHIES -</h6>
-                        <img src="Screenshotrs3RDRound/14SippelMay1716NEW.jpg" alt="">
+                        <img src="Screenshotrs3RDRound/14SippelMay1716NEW.jpg" alt="restaurant-opening">
                         <h4>All The Delays of Opening a Restaurant in New York City Are Well Worth It</h4>
                         
                     </a>
@@ -153,14 +153,14 @@
                 <div class="col span-1-of-4 box" id="story-14">
                     <a href="https://munchies.vice.com/en_us/article/being-a-sober-bartender-always-helps-me-remember-you-being-an-asshole" target="_blank">
                         <h6>- MUNCHIES -</h6>
-                        <img src="Screenshotrs3RDRound/13SoberJul2216NEW.jpg" alt="trump_tower">
+                        <img src="Screenshotrs3RDRound/13SoberJul2216NEW.jpg" alt="sober-bartender">
                         <h4>Being a Sober Bartender Always Helps Me Remember You Being an Asshole</h4>
                     </a>
                 </div>
                 <div class="col span-1-of-4 box" id="story-13">
                     <a href="https://munchies.vice.com/en_us/article/working-at-an-all-you-can-eat-buffet-comes-with-unlimited-craziness" target="_blank">
                         <h6>- MUNCHIES -</h6>
-                        <img src="Screenshotrs3RDRound/12BuffetAug2416NEW.jpg">
+                        <img src="Screenshotrs3RDRound/12BuffetAug2416NEW.jpg" alt="crazy-buffet">
                         <h4>Working at an All-You-Can-Eat Buffet Comes with Unlimited Craziness</h4>
                     </a>
                 </div>                
@@ -170,21 +170,21 @@
                 <div class="col span-1-of-4 box" id="story-12">
                     <a href="https://munchies.vice.com/en_us/article/the-first-soju-made-from-grapes-might-spare-you-a-killer-hangover" target="_blank">
                         <h6>- MUNCHIES -</h6>
-                        <img src="Screenshotrs3RDRound/11GrapeSojuMar1617NEW.jpg">
+                        <img src="Screenshotrs3RDRound/11GrapeSojuMar1617NEW.jpg" alt="grape-soju">
                         <h4>The First Soju Made from Grapes Could Spar You a Killer Hangover</h4>
                     </a>
                 </div>
                 <div class="col span-1-of-4 box" id="story-11">
                     <a href="https://munchies.vice.com/en_us/article/secrets-from-the-guy-who-runs-your-cash-register" target="_blank">
                         <h6>- MUNCHIES -</h6>
-                        <img src="Screenshotrs3RDRound/10CashRegisterOct2315NEW.jpg">
+                        <img src="Screenshotrs3RDRound/10CashRegisterOct2315NEW.jpg" alt="restaurant-cash-register">
                         <h4>Secrets from the Guy Who Runs Your Cash Register</h4>           
                     </a>
                 </div>
                 <div class="col span-1-of-4 box" id="story-10">
                     <a href="https://munchies.vice.com/en_us/article/the-enduring-appeal-of-stealing-tiki-mugs" target="_blank">
                         <h6>- MUNCHIES -</h6>
-                        <img src="Screenshotrs3RDRound/9MugsAug1815NEW.jpg">
+                        <img src="Screenshotrs3RDRound/9MugsAug1815NEW.jpg" alt="tiki-mugs">
                         <h4>The Enduring Appeal of Stealing Tiki Mugs</h4>
                         
                     </a>
@@ -192,7 +192,7 @@
                 <div class="col span-1-of-4 box" id="story-9">
                     <a href="https://munchies.vice.com/en_us/article/ive-been-tipped-in-gold-nuggets-8-balls-and-three-way-wedding-proposals" target="_blank">
                         <h6>- MUNCHIES -</h6>
-                        <img src="Screenshotrs3RDRound/8TipsJul2917NEW.jpg">
+                        <img src="Screenshotrs3RDRound/8TipsJul2917NEW.jpg" alt="8-balls-and-gold">
                         <h4>I’ve Been Tipped in Gold Nuggets, 8-Balls, and Three-Way Wedding Proposals</h4>
                     </a>
                 </div>  
@@ -202,14 +202,14 @@
                 <div class="col span-1-of-4 box" id="story-8">
                     <a href="https://munchies.vice.com/en_us/article/makgeolli-is-the-drink-of-choice-for-farmers-korean-rappers-and-old-people" target="_blank">
                             <h6>- MUNCHIES -</h6>
-                            <img src="Screenshotrs3RDRound/7MakgeolluNov815NEW.jpg">
+                            <img src="Screenshotrs3RDRound/7MakgeolluNov815NEW.jpg" alt="makgeoli">
                             <h4>Makgeolli Is the Drink of Choice for Farmers, Korean Rappers, and Old People</h4>
                     </a>
                 </div>
                 <div class="col span-1-of-4 box" id="story-7">
                     <a href="https://munchies.vice.com/en_us/article/i-was-an-insane-chef-until-i-started-drinking-broth" target="_blank">
                         <h6>- MUNCHIES -</h6>
-                        <img src="Screenshotrs3RDRound/6BrothNov1014NEW.jpg" alt="">
+                        <img src="Screenshotrs3RDRound/6BrothNov1014NEW.jpg" alt="broth-chef">
                         <h4>I Was an Insane Chef Until I Started Drinking Broth</h4>
                         
                     </a>
@@ -217,14 +217,14 @@
                 <div class="col span-1-of-4 box" id="story-6">
                     <a href="https://munchies.vice.com/en_us/article/google-search-helped-this-food-runner-learn-how-to-work-in-a-restaurant" target="_blank">
                         <h6>- MUNCHIES -</h6>
-                        <img src="Screenshotrs3RDRound/5CellJun1614NEW.jpg" alt="broth">
+                        <img src="Screenshotrs3RDRound/5CellJun1614NEW.jpg" alt="food-runner">
                         <h4>Google Search Helped This Food Runner Learn How to Work in a Restaurant </h4>
                     </a>
                 </div>
                 <div class="col span-1-of-4 box" id="story-5">
                     <a href="https://munchies.vice.com/en_us/article/charging-your-cell-phone-at-a-restaurant-is-rude" target="_blank">
                         <h6>- MUNCHIES -</h6>
-                        <img src="Screenshotrs3RDRound/charging-cellphone.jpg">
+                        <img src="Screenshotrs3RDRound/charging-cellphone.jpg" alt="cellphone-charger">
                         <h4>Charging Your Cellphone at a Restaurant is Rude</h4>
                     </a>
                 </div>                
@@ -234,21 +234,21 @@
                 <div class="col span-1-of-4 box" id="story-4">
                     <a href="https://munchies.vice.com/en_us/article/sexism-in-the-kitchen-goes-both-ways" target="_blank">
                         <h6>- MUNCHIES -</h6>
-                        <img src="Screenshotrs3RDRound/4SexismMay1514NEW.jpg">
+                        <img src="Screenshotrs3RDRound/4SexismMay1514NEW.jpg" alt="sexism-in-kitchen">
                         <h4>Sexism in the Kitchen Goes Both Ways</h4>
                     </a>
                 </div>
                 <div class="col span-1-of-4 box" id="story-3">
                     <a href="https://munchies.vice.com/en_us/article/meet-the-ivy-league-degree-bartender-who-is-probably-smarter-than-you" target="_blank">
                         <h6>- MUNCHIES -</h6>
-                        <img src="Screenshotrs3RDRound/3IveLeagueApr614NEW.jpg">
+                        <img src="Screenshotrs3RDRound/3IveLeagueApr614NEW.jpg" alt="ivy-league-bartender">
                         <h4>This Ivy League Degree Bartender is Probably Than You</h4>                     
                     </a>
                 </div>
                 <div class="col span-1-of-4 box" id="story-2">
                     <a href="https://www.vice.com/en_us/article/im-fugly-and-i-wont-be-your-waiter-tonight" target="_blank">
                         <h6>- VICE -</h6>
-                        <img src="Screenshotrs3RDRound/2FuglyMar1914NEW.jpg">
+                        <img src="Screenshotrs3RDRound/2FuglyMar1914NEW.jpg" alt="fugly-ugly-waiter">
                         <h4>I’m Fugly, and I Won’t Be Your Waiter Tonight</h4>
                         
                     </a>
@@ -256,7 +256,7 @@
                 <div class="col span-1-of-4 box" id="story-1">
                     <a href="https://www.vice.com/en_us/article/soju-is-responsible-for-the-south-koreans-passed-out-in-the-streets" target="_blank">
                         <h6>- VICE -</h6>
-                        <img src="Screenshotrs3RDRound/1SojuNov2113NEW.jpg">
+                        <img src="Screenshotrs3RDRound/1SojuNov2113NEW.jpg" alt="soju-korean-drunk">
                         <h4>Soju is Responsible for South Koreans Passing Out in the Streets</h4>
                         
                     </a>
@@ -321,8 +321,7 @@
                         <div class="col span-2-of-3">
                             <input type="submit" value="Send" class="btn">
                         </div>
-                    </div>
-                    
+                    </div> 
                 </form>
                 
             </div>
@@ -348,6 +347,16 @@
         <script src="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
         <script src="vendors/jquery.waypoints.min.js"></script>
         <script src="script.js"></script>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-8485688-2', 'auto');
+          ga('send', 'pageview');
+
+        </script>
         
     </body>
     
